@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.Bookmark_wrapper{
+    text-align: center;
+    box-shadow: 0px 1px 8px gray ;
+    border-radius: 6px;
+    /* border: 2px solid red; */
+}
+
+.Bookmark_container{
+    margin-top: 3rem;
+}
+
+.Bookmark_wrapper{
+    margin-bottom: 2rem;
+}
+
+.Bookmark_title-field{
+    margin-bottom: 0.8rem;
+    margin-top: 0.4rem;
+}
+
+.Bookmark_url-field{
+    margin-bottom: 1rem;
+}
+
+.Bookmark_url{
+    font-family: "Poppins";
+    color: rgb(112, 112, 112);
+}
+
+.Bookmark_button{
+    padding-top: 1rem;
+    padding-bottom: 2rem !important;
+}
+
+.Bookmark_heading{
+    border: 1px solid royalblue;
+    font-family: "Poppins";
+    border-radius: 6px;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: royalblue;
+    color: white;
+}
+
+.Bookmark_list{
+    margin-top: 1rem;
+    border: 1px solid white;
+    box-shadow: 0px 1px 8px gray ;
+    border-radius: 6px;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+    padding-left:1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.Bookmark_title{
+    font-family: "Poppins";
+}
+
+.Bookmark_delete button{
+    padding: 0.3rem 1rem;
+    outline: none;
+    background-color: #1364aa;
+    border: 1px solid royalblue;
+    color: white;
+    font-family: "Poppins";
+    border-radius: 4px;
+    transition:  top ease 0.5s;
+    position: relative;
+    top: 0;
+
+
+}
+
+.Bookmark_delete button:hover{
+    background-color: white;
+    border: 1px solid red;
+
+    color: black;
+    top: -4px;
+
+}
